@@ -1,0 +1,383 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-25T10:16:53.616Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "TC01_ google search test",
+        "description": "",
+        "id": "single-data-table;tc01--google-search-test;test-data;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1760000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13340000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is in the google page",
+            "match": {
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.user_is_in_the_google_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5835000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user searches \"Selenium\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Selenium\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.user_searches(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 146000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify result has \"Selenium\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Selenium\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.verify_result_has(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@datatable1"
+          },
+          {
+            "name": "@smoketest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-25T10:17:14.745Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "TC01_ google search test",
+        "description": "",
+        "id": "single-data-table;tc01--google-search-test;test-data;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1667000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7582000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is in the google page",
+            "match": {
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.user_is_in_the_google_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5280000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user searches \"Cucumber\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cucumber\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.user_searches(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 139000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify result has \"Cucumber\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cucumber\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.verify_result_has(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@datatable1"
+          },
+          {
+            "name": "@smoketest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-25T10:17:29.427Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "TC01_ google search test",
+        "description": "",
+        "id": "single-data-table;tc01--google-search-test;test-data;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1080000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6789000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is in the google page",
+            "match": {
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.user_is_in_the_google_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3829000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user searches \"Automation Tester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Automation Tester\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.user_searches(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 140000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify result has \"Automation Tester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Automation Tester\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.verify_result_has(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@datatable1"
+          },
+          {
+            "name": "@smoketest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-25T10:17:41.276Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "TC01_ google search test",
+        "description": "",
+        "id": "single-data-table;tc01--google-search-test;test-data;5",
+        "after": [
+          {
+            "result": {
+              "duration": 1475000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4454000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is in the google page",
+            "match": {
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.user_is_in_the_google_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3044000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user searches \"Istanbul\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Istanbul\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.user_searches(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify result has \"Istanbul\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Istanbul\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.verify_result_has(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@datatable1"
+          },
+          {
+            "name": "@smoketest"
+          }
+        ]
+      }
+    ],
+    "name": "Single Data Table",
+    "description": "",
+    "id": "single-data-table",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/google_search_single_datatable.feature",
+    "tags": [
+      {
+        "name": "@datatable1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@smoketest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 13
+        }
+      }
+    ]
+  }
+]
