@@ -70,6 +70,7 @@ public class ScenarioOutlineExampleSteps {
     }
     @When("User enters office {string}")
     public void user_enters_office(String string) {
+
         dataTablePage.office.sendKeys(string);
     }
     @When("User enters extension {string}")
@@ -78,14 +79,17 @@ public class ScenarioOutlineExampleSteps {
     }
     @When("User enters start date {string}")
     public void user_enters_start_date(String string) {
+
         dataTablePage.startDate.sendKeys(string);
     }
     @When("User enters salary {string}")
     public void user_enters_salary(String string) {
+        
         dataTablePage.salary.sendKeys(string);
     }
     @When("User enters first name {string} to the searchbox")
     public void user_enters_first_name_to_the_searchbox(String string) {
+
         dataTablePage.searchbox.sendKeys(string);
     }
     @Then("verify that user see the first name {string} in the searchbox")

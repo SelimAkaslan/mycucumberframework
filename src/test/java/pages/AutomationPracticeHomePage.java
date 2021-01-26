@@ -7,6 +7,7 @@ import utilities.Driver;
 
 public class AutomationPracticeHomePage {
     public AutomationPracticeHomePage(){
+
         PageFactory.initElements(Driver.getDriver(),this);
     }
     @FindBy(xpath = "//a[@class='login']")

@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="281.444">
-<testcase classname="Login feature" name="TC01_kullanici gecerli kimlik bilgileri ile giris yapar" time="281.182">
-<system-out><![CDATA[Given user is on the fhctriplogin page......................................passed
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="63.931">
+<testcase classname="Login feature" name="TC01_kullanici gecerli kimlik bilgileri ile giris yapar" time="63.456">
+<failure message="" type="java.lang.AssertionError"><![CDATA[Given user is on the fhctriplogin page......................................passed
 And user enters valid username..............................................passed
 And user enters  valid password.............................................passed
 And user clicks login button................................................passed
-Then verify login is successfull............................................passed
-]]></system-out>
+Then verify login is successfull............................................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepdefinitions.FhcTripLoginStepDefinitions.verify_login_is_successfull(FhcTripLoginStepDefinitions.java:29)
+	at ✽.verify login is successfull(file:///Users/buse/IdeaProjects/mycucumberframework/src/test/resources/features/fhctrip_login.feature:8)
+]]></failure>
 </testcase>
 </testsuite>

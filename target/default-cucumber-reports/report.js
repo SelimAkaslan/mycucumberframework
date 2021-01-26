@@ -1,21 +1,27 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/automation_practice_TC3.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/fhctrip_login.feature");
 formatter.feature({
-  "name": "Search product",
+  "name": "Login feature",
   "description": "",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@testcase3"
+      "name": "@fhclogin"
+    },
+    {
+      "name": "@first"
     }
   ]
 });
 formatter.scenario({
-  "name": "Automation Practise 3",
+  "name": "TC01_kullanici gecerli kimlik bilgileri ile giris yapar",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@testcase3"
+      "name": "@fhclogin"
+    },
+    {
+      "name": "@first"
     }
   ]
 });
@@ -23,55 +29,57 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "user web sayfasinda",
+  "name": "user is on the fhctriplogin page",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "stepdefinitions.AutomationPracticeStepDef.user_web_sayfasinda()"
+  "location": "stepdefinitions.FhcTripLoginStepDefinitions.user_is_on_the_fhctriplogin_page()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "imleci Women linkinin uzerine ve daha sonra Tshirts\u0027e tiklayin",
+  "name": "user enters valid username",
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepdefinitions.AutomationPracticeStepDef.imleci_Women_linkinin_uzerine_ve_daha_sonra_Tshirts_e_tiklayin()"
+  "location": "stepdefinitions.FhcTripLoginStepDefinitions.user_enters_valid_username()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "sayfada gorunen ilk urunun textini alin",
+  "name": "user enters  valid password",
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepdefinitions.AutomationPracticeStepDef.sayfada_gorunen_ilk_urunun_textini_alin()"
+  "location": "stepdefinitions.FhcTripLoginStepDefinitions.user_enters_valid_password()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "sayfada ustte bulunan arama cubuguna ayni urun ismini girin ve search butonuna basin",
+  "name": "user clicks login button",
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepdefinitions.AutomationPracticeStepDef.sayfada_ustte_bulunan_arama_cubuguna_ayni_urun_ismini_girin_ve_search_butonuna_basin()"
+  "location": "stepdefinitions.FhcTripLoginStepDefinitions.user_clicks_login_button()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "acilan sayfada cikan urunun T-Shirt sayfasinda goruntulenen urunle ayni oldugunu dogrulayin",
+  "name": "verify login is successfull",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepdefinitions.AutomationPracticeStepDef.acilan_sayfada_cikan_urunun_T_Shirt_sayfasinda_goruntulenen_urunle_ayni_oldugunu_dogrulayin()"
+  "location": "stepdefinitions.FhcTripLoginStepDefinitions.verify_login_is_successfull()"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:87)\n\tat org.junit.Assert.assertTrue(Assert.java:42)\n\tat org.junit.Assert.assertTrue(Assert.java:53)\n\tat stepdefinitions.FhcTripLoginStepDefinitions.verify_login_is_successfull(FhcTripLoginStepDefinitions.java:29)\n\tat ✽.verify login is successfull(file:///Users/buse/IdeaProjects/mycucumberframework/src/test/resources/features/fhctrip_login.feature:8)\n",
+  "status": "failed"
 });
+formatter.embedding("image/png", "embedded0.png", null);
 formatter.after({
   "status": "passed"
 });
